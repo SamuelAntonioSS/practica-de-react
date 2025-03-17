@@ -3,6 +3,8 @@ import './App.css';
 import Alerta from './components/Alerta';
 import Boton from './components/Boton';
 import Acordeon from './components/Acordeon';
+import Badges from './components/Badges';
+import Modal from './components/Modal';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
 
 <Alerta/>
 <Acordeon/>
+<Badges/>
+<Modal/>
 
     </>
   );
